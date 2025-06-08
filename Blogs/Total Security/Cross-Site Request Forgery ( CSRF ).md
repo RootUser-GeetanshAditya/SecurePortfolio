@@ -10,7 +10,7 @@ For a CSRF attack to be possible, three key conditions must be in place:
 - **No unpredictable request parameters.** The requests that perform the action do not contain any parameters whose values the attacker cannot determine or guess. For example, when causing a user to change their password, the function is not vulnerable if an attacker needs to know the value of the existing password.
 
 Example : - 
-```
+```html
 <html>
     <body>
         <form action="<https://vulnerable-website.com/email/change>" method="POST">
