@@ -25,6 +25,17 @@ Example : -
 </html>
 ```
 
+```python
+
+import random
+a = "Hello String"
+
+def this_is_a_function():
+    print("Hello")
+
+```
+
+
 If a victim user visits the attacker's web page, the following will happen:
 
 - The attacker's page will trigger an HTTP request to the vulnerable website.
