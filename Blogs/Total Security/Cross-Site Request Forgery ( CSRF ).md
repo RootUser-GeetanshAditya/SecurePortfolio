@@ -49,7 +49,7 @@ EndRedBox
 
 StartGreenBox
 This is the second warning
-EndRedBox
+EndGreenBox
 
 StartPurpleBox
 This is not a warning at all
