@@ -1,0 +1,32 @@
+Featured=1
+Author=Geetansh Aditya
+Date=22-02-2005
+Title= This is my example blog
+Subtitle= Cross-Site Request Forgery ( CSRF )
+Subtitle= How does CSRF work?
+Paragraph= Cross-site request forgery (also known as CSRF) is a web security vulnerability that allows an attacker to induce users to perform actions that they do not intend to perform. It allows an attacker to partly circumvent the same origin policy, which is designed to prevent different websites from interfering with each other.
+Paragraph= For a CSRF attack to be possible, three key conditions must be in place:
+Points:
+- There is an action within the application that the attacker has a reason to induce. This might be a privileged action (such as modifying permissions for other users) or any action on user-specific data (such as changing the user's own password).
+- Performing the action involves issuing one or more HTTP requests, and the application relies solely on session cookies to identify the user who has made the requests. There is no other mechanism in place for tracking sessions or validating user requests.
+EndPoints
+Image= ../.assets/Firest.jpeg
+CodeBlock: python
+# Your code here
+print("Hello, World!")
+EndCodeBlock
+Quote= Your quote here...
+InfoBox=normal
+InfoTitle= Critical Update
+InfoContent= This is the latest information
+EndInfoBox
+InfoBox=warning
+InfoTitle= Warning
+InfoContent= Important warning message...
+EndInfoBox
+InfoBox=danger
+InfoTitle= Info
+InfoContent= Your information here...
+EndInfoBox
+
+
