@@ -18,7 +18,6 @@ Build a cross-platform C2 infrastructure that focuses on stealth.
 - Strong operator interfaces (Command Line Interface and Web- based UI).
 - Make it extensible by means of a module-based plugin structure.
 
----
 StartGreenBox
 This is the first iteration of the idea with many more to come. The idea is subject to change when team faces a better approach
 EndGreenBox
