@@ -5,7 +5,7 @@
 ### **Summary of project**
 
 SpecterC2 is a sophisticated Command and Control (C2) framework, which is designed to be stealthy, modular, and provide offense security functions. It provides a cross-platform support of implants, adaptive and encrypted communication protocols, and extensible plugin environment that focused on post-exploitation workrack.
-
+FeaturedImage=../.assets/simple.jpg 
 ---
 
 ### **Objectives**
