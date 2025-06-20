@@ -1,14 +1,14 @@
-# **SpecterC2 – Advanced Modular C2 Framework**
+# SpecterC2 – Advanced Modular C2 Framework
 
-## **Red Team Project Development Plan**
+## Red Team Project Development Plan
 
-### **Summary of project**
+### Summary of project
 
 SpecterC2 is a sophisticated Command and Control (C2) framework, which is designed to be stealthy, modular, and provide offense security functions. It provides a cross-platform support of implants, adaptive and encrypted communication protocols, and extensible plugin environment that focused on post-exploitation workrack.
  
  FeaturedImage=../.assets/simple.jpg 
 
-### **Objectives**
+### Objectives
 
 Build a cross-platform C2 infrastructure that focuses on stealth.
 
@@ -19,24 +19,16 @@ Build a cross-platform C2 infrastructure that focuses on stealth.
 - Make it extensible by means of a module-based plugin structure.
 
 ---
+StartGreenBox
+This is the first iteration of the idea with many more to come. The idea is subject to change when team faces a better approach
+EndGreenBox
+### Core Components
 
-### **Core Components**
+Image=../.assets/tablespectre.jpg
 
-| Component | Language / Stack | Purpose |
-| --- | --- | --- |
-| C2 Server | Go / Python (FastAPI) | Backend services for implant management |
-| Operator Interface | React + Tailwind CSS | Web-based UI for operator control |
-| Implants ("Ghosts") | C++ / Rust / C# | Cross-platform payloads for target systems |
-| Transport Layer | QUIC, HTTPS, DNS-over-HTTPS | Covert and secure communication channels |
-| Payload Builder | Python + Web UI | Custom implant generation and configuration |
-| Plugin System | Python + Interface API | Post-exploitation module support |
-| Security Layer | AES, RSA, TLS | End-to-end encryption and authentication |
+### Phase-Wise Development Plan
 
----
-
-### **Phase-Wise Development Plan**
-
-### **Phase 1 – Planning & Requirements**
+### Phase 1 – Planning & Requirements
 
 - Define supported operating systems and implant capabilities.
 - Assign team responsibilities (backend, implants, UI, payloads).
@@ -46,7 +38,7 @@ Build a cross-platform C2 infrastructure that focuses on stealth.
 
 ---
 
-### **Phase 2 – Backend Development**
+### Phase 2 – Backend Development
 
 - Develop the core C2 server using FastAPI or Go:
     - Implant registration and beacon handling
@@ -56,11 +48,11 @@ Build a cross-platform C2 infrastructure that focuses on stealth.
     - Operator authentication (JWT or token-based)
     - RESTful and WebSocket interfaces
 
-**Deliverable:** Functional backend capable of managing implants and tasks securely.
+Deliverable: Functional backend capable of managing implants and tasks securely.
 
 ---
 
-### **Phase 3 – Implant Development**
+### Phase 3 – Implant Development
 
 - Develop a Windows-based implant in C++:
     - Persistent beaconing mechanism
@@ -71,11 +63,11 @@ Build a cross-platform C2 infrastructure that focuses on stealth.
 - Implement anti-analysis checks (e.g., anti-debugging, sandbox detection).
 - Integrate obfuscation techniques and stager functionality.
 
-**Deliverable:** Functional cross-platform implants with core features.
+Deliverable: Functional cross-platform implants with core features.
 
 ---
 
-### **Phase 4 – Operator Interface**
+### Phase 4 – Operator Interface
 
 - Build a web interface using React:
     - Implant management dashboard
@@ -83,11 +75,11 @@ Build a cross-platform C2 infrastructure that focuses on stealth.
     - Interactive shell interface
 - Develop a CLI tool for scriptable operator tasks.
 
-**Deliverable:** Usable web and CLI interfaces for red team operations.
+Deliverable: Usable web and CLI interfaces for red team operations.
 
 ---
 
-### **Phase 5 – Payload Builder**
+### Phase 5 – Payload Builder
 
 - Implement a web and CLI-based payload builder:
     - Support for multiple transport layers
@@ -95,11 +87,11 @@ Build a cross-platform C2 infrastructure that focuses on stealth.
     - Support for various loader formats (e.g., LNK, macro, HTA)
     - Output formats including shellcode, executables, and DLLs
 
-**Deliverable:** A configurable payload generation utility.
+Deliverable: A configurable payload generation utility.
 
 ---
 
-### **Phase 6 – Plugin System & Post-Exploitation Modules**
+### Phase 6 – Plugin System & Post-Exploitation Modules
 
 - Define a plugin interface in Python.
 - Develop initial post-exploitation modules:
@@ -108,11 +100,11 @@ Build a cross-platform C2 infrastructure that focuses on stealth.
     - File manager (upload/download)
     - Lateral movement via WMI/SMB
 
-**Deliverable:** A modular plugin system with multiple post-exploitation capabilities.
+Deliverable: A modular plugin system with multiple post-exploitation capabilities.
 
 ---
 
-### **Phase 7 – Transport Evasion**
+### Phase 7 – Transport Evasion
 
 - Implement covert transport techniques:
     - QUIC-based communication
@@ -120,11 +112,11 @@ Build a cross-platform C2 infrastructure that focuses on stealth.
     - Randomized URI generation
     - Domain fronting or host rotation (time-permitting)
 
-**Deliverable:** Enhanced transport layer with stealth features.
+Deliverable: Enhanced transport layer with stealth features.
 
 ---
 
-### **Phase 8 – Evasion & Stealth Enhancements**
+### Phase 8 – Evasion & Stealth Enhancements
 
 - Integrate advanced evasion features:
     - AMSI bypass (C++ and .NET)
@@ -132,21 +124,21 @@ Build a cross-platform C2 infrastructure that focuses on stealth.
     - Anti-debugging and anti-virtualization techniques
     - In-memory PE loader
 
-**Deliverable:** Evasion pack integrated into implant builds.
+Deliverable: Evasion pack integrated into implant builds.
 
 ---
 
-### **Phase 9 – Testing & Operational Security Audit**
+### Phase 9 – Testing & Operational Security Audit
 
 - Conduct internal testing using detection tools (e.g., Sysmon, Windows Defender).
 - Simulate detection by blue teams and refine payloads.
 - Evaluate payloads using AV and sandbox environments.
 
-**Deliverable:** Hardened payloads and improved stealth through feedback loop.
+Deliverable: Hardened payloads and improved stealth through feedback loop.
 
 ---
 
-### **Phase 10 – Documentation & Release (Week 19)**
+### Phase 10 – Documentation & Release (Week 19)
 
 - Develop comprehensive documentation:
     - Developer and operator manuals
@@ -154,4 +146,4 @@ Build a cross-platform C2 infrastructure that focuses on stealth.
     - GitHub README
 - Finalize licensing (e.g., GPLv3 or equivalent)
 
-**Deliverable:** Complete documentation and public release preparation.
+Deliverable: Complete documentation and public release preparation.
