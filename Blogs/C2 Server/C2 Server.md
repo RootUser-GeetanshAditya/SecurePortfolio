@@ -35,7 +35,7 @@ Image=../.assets/tablespectre.jpg
 - Select implementation languages and tools.
 - Define Minimum Viable Product (MVP) scope.
 
----
+
 
 ### Phase 2 – Backend Development
 
@@ -49,7 +49,7 @@ Image=../.assets/tablespectre.jpg
 
 Deliverable: Functional backend capable of managing implants and tasks securely.
 
----
+
 
 ### Phase 3 – Implant Development
 
@@ -64,7 +64,7 @@ Deliverable: Functional backend capable of managing implants and tasks securely.
 
 Deliverable: Functional cross-platform implants with core features.
 
----
+
 
 ### Phase 4 – Operator Interface
 
@@ -76,7 +76,7 @@ Deliverable: Functional cross-platform implants with core features.
 
 Deliverable: Usable web and CLI interfaces for red team operations.
 
----
+
 
 ### Phase 5 – Payload Builder
 
@@ -88,7 +88,7 @@ Deliverable: Usable web and CLI interfaces for red team operations.
 
 Deliverable: A configurable payload generation utility.
 
----
+
 
 ### Phase 6 – Plugin System & Post-Exploitation Modules
 
@@ -101,7 +101,7 @@ Deliverable: A configurable payload generation utility.
 
 Deliverable: A modular plugin system with multiple post-exploitation capabilities.
 
----
+
 
 ### Phase 7 – Transport Evasion
 
@@ -113,7 +113,7 @@ Deliverable: A modular plugin system with multiple post-exploitation capabilitie
 
 Deliverable: Enhanced transport layer with stealth features.
 
----
+
 
 ### Phase 8 – Evasion & Stealth Enhancements
 
@@ -125,7 +125,7 @@ Deliverable: Enhanced transport layer with stealth features.
 
 Deliverable: Evasion pack integrated into implant builds.
 
----
+
 
 ### Phase 9 – Testing & Operational Security Audit
 
@@ -135,7 +135,7 @@ Deliverable: Evasion pack integrated into implant builds.
 
 Deliverable: Hardened payloads and improved stealth through feedback loop.
 
----
+
 
 ### Phase 10 – Documentation & Release (Week 19)
 
